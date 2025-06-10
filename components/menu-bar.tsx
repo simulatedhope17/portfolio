@@ -61,30 +61,6 @@ export default function MenuBar() {
           >
             Akib's Portfolio
           </button>
-          <button 
-            onClick={handleProfileClick}
-            className="hover:bg-gray-200 px-2 py-1 rounded cursor-pointer"
-          >
-            Profile
-          </button>
-          <button 
-            onClick={handleContactClick}
-            className="hover:bg-gray-200 px-2 py-1 rounded cursor-pointer"
-          >
-            Contact
-          </button>
-          <button 
-            onClick={handleProjectsClick}
-            className="hover:bg-gray-200 px-2 py-1 rounded cursor-pointer"
-          >
-            Projects
-          </button>
-          <button 
-            onClick={handleResumeClick}
-            className="hover:bg-gray-200 px-2 py-1 rounded cursor-pointer"
-          >
-            Resume
-          </button>
         </div>
         <span className="font-mono text-[10px]">
           {currentTime.toLocaleTimeString("en-US", {
