@@ -57,6 +57,9 @@ export default function PhotosContent({ windowId }: PhotosContentProps) {
         </div>
       </div>
 
+      <p className="text-gray-600 text-xs font-light italic mt-1 inline">[Scroll down to see more]</p>
+       
+
       {viewMode === "grid" && !selectedPhoto && (
         <div className="grid grid-cols-4 gap-3">
           {photos.map((photo) => (
@@ -108,6 +111,7 @@ export default function PhotosContent({ windowId }: PhotosContentProps) {
           ))}
         </div>
       )}
+      
 
       {viewMode === "gallery" && !selectedPhoto && (
         <div className="space-y-4">
@@ -143,6 +147,8 @@ export default function PhotosContent({ windowId }: PhotosContentProps) {
           </div>
         </div>
       )}
+
+  
 
       {selectedPhoto && (
         <div className="space-y-4">

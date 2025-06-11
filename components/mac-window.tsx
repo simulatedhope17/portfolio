@@ -6,6 +6,7 @@ import { useState, useRef, useEffect } from "react"
 import { ChevronLeft, ChevronRight, Search, SidebarClose, ArrowLeftRight, X } from "lucide-react"
 import { useIsMobile } from "@/hooks/use-mobile"
 import Finder from "./finder"
+import { XAxis, YAxis } from "recharts"
 
 interface MacWindowProps {
   id: string
@@ -67,6 +68,14 @@ export default function MacWindow({
       return {
         width: 400,
         height: 500,
+      }
+    }
+    if (id === "gravity-wars") {
+      setPosition({ x: 0, y: 0 })
+      return {
+        width: window.innerWidth,
+        height: window.innerHeight,
+        
       }
     }
     return {

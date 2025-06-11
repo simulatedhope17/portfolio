@@ -188,7 +188,7 @@ export default function ProjectsContent({ windowId }: ProjectsContentProps) {
               <a
                 href="#"
                 onClick={handleLiveDemoClick}
-                className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs sm:text-sm transition-colors flex items-center gap-1"
+                className="bg-red-500 hover:bg-red-800 text-gray-50 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs sm:text-sm transition-colors flex items-center gap-1"
               >
                 <LinkIcon size={14} className="sm:w-4 sm:h-4" />
                 Live Demo

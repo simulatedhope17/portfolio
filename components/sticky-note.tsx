@@ -12,7 +12,6 @@ const todoItems = [
   { text: "Move to HK", completed: true, icon: "✈️" },
   { text: "Finish CS without losing my mind", completed: false, icon: "🎓" },
   { text: "Upload banger music covers on Instagram", completed: false, icon: "🎵" },
-  { text: "World domination", completed: false, icon: "🌍" },
   { text: "Eat more fruits and vegetable", completed: true, icon: "🍎" },
   { text: "Travel somewhere new every year", completed: false, icon: "🗺️" },
 ]
