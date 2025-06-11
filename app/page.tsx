@@ -73,14 +73,14 @@ export default function HomePage() {
 
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 md:justify-center -mt-24 md:mt-0">
         <div className={`text-center relative ${isLoaded ? "animate-unfold" : "opacity-0 scale-0"}`}>
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Orb hue={45} hoverIntensity={0.3} />
-          </div>
+          </div> */}
           <div className="relative z-10">
-            <h1 className="text-3xl md:text-5xl lg:text-7xl font-light text-gray-800 mb-4 hover-zoom mt-0">welcome to my</h1>
-            <h2 className="text-5xl md:text-7xl lg:text-9xl font-light italic text-black mb-8 hover-zoom">portfolio.</h2>
+            <h1 className="text-3xl md:text-5xl lg:text-3xl font-light text-gray-0 mb-4 hover-zoom mt-0">welcome to my</h1>
+            <h2 className="text-5xl md:text-7xl lg:text-5xl font-light italic text-gray-0 mb-8 hover-zoom">portfolio.</h2>
 
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto hover-zoom mt-0">
+            <p className="text-l md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto hover-zoom mt-0">
               Akib Arifeen <span className="breathing-glow">&lt;/&gt;</span>{" "}
               <span className="typing-text">
                 {currentRole}

@@ -42,9 +42,6 @@ export default function TerminalContent({ windowId }: TerminalContentProps) {
 - contact       : Get my contact information
 - clear         : Reset terminal
 - sudo          : Unlock hidden features
-- music         : Open music player
-- resume        : View my resume
-- photos        : View my photos
 - open <app>    : Open a specific application (e.g., open music, open resume, open profile)
 - send_msg "name" "email" "subject" "message" : Send a message to me.`,
 
